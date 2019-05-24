@@ -22,7 +22,7 @@ public abstract class BaseTest {
 	protected static ExecutorService workersPool = Executors.newFixedThreadPool(3, r -> new Thread(r, "WORKER-" + (++threadNum)));
 
 	public static void log(Object o) {
-		System.out.println(String.format(Timer.elapsed() + " [%s] %s", Thread.currentThread().getName(), o));
+		System.out.println(String.format(Timer.elapsed() + "ms [%s] %s", Thread.currentThread().getName(), o));
 	}
 
 	public static void sleep(long millis) {

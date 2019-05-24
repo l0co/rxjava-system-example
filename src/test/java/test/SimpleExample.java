@@ -16,6 +16,7 @@ public class SimpleExample extends BaseTest {
 	public void testA0() {
 		int i = 1;
 		log(i);
+		log("bye bye");
 	}
 
 	@Test
@@ -40,6 +41,7 @@ public class SimpleExample extends BaseTest {
 		i++;
 		i++;
 		log(i);
+		log("bye bye");
 	}
 
 	@Test

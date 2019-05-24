@@ -1,5 +1,10 @@
 package helpers;
 
+/**
+ * Just a resetable timer to calculate time elapsed.
+ *
+ * @author Lukasz Frankowski
+ */
 public class Timer {
 
 	protected static long startTime;
@@ -16,6 +21,4 @@ public class Timer {
 		return System.currentTimeMillis() - startTime;
 	}
 
-
-	
 }

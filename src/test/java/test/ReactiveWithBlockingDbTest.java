@@ -6,5 +6,5 @@ package test;
  *
  * @author Lukasz Frankowski
  */
-public class ReactiveWithBlockingDbTest extends BaseTest {
+public class ReactiveWithBlockingDbTest extends BaseReactiveTest {
 }

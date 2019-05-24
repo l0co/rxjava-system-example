@@ -5,5 +5,5 @@ package test;
  *
  * @author Lukasz Frankowski
  */
-public class ReactiveWithReactiveDb extends BaseTest {
+public class ReactiveWithReactiveDb extends BaseReactiveTest {
 }

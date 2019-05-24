@@ -14,7 +14,7 @@ public class ThreadPerRequestTest extends BaseTest {
 
 	@ParameterizedTest
 	@ValueSource(ints = {1, 10})
-	public void requestPerThread(int requestsCount) throws Exception {
+	public void test(int requestsCount) throws Exception {
 		CountDownLatch latch = new CountDownLatch(requestsCount);
 
 		for (int i = 0; i< requestsCount; i++) {

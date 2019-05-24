@@ -16,7 +16,7 @@ import java.util.concurrent.CountDownLatch;
  *
  * @author Lukasz Frankowski
  */
-public class ReactiveWithReactiveDb extends BaseReactiveTest {
+public class ReactiveWithReactiveDbTest extends BaseReactiveTest {
 
 	@ParameterizedTest
 	@ValueSource(ints = {1, 10})

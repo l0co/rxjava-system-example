@@ -1,8 +1,6 @@
 # RxJava System Example
 
-This project contains sources for my article about Reactive Systems with RxJava.  
-
-[//]: # (TODOLF add backlink)
+This project contains sources for my [article about Reactive Systems with RxJava](http://lifeinide.com/post/2019-05-24-reactive-system-example-with-rxjava/).  
 
 It contains three implementations of hypothetical web application backends:
 
